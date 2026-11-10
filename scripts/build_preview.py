@@ -97,7 +97,7 @@ def build() -> None:
                 if script['src'].startswith('assets/'):
                     script['src'] = script['src']
             # No PHP source or inline setup/admin data is exported.
-            markup = '<!doctype html>\n' + str(soup)
+            markup = str(soup)
             outfile = OUT / output_name(page)
             outfile.write_text(markup, encoding='utf-8')
             print(f'Wrote {outfile.relative_to(ROOT)} ({len(markup):,} chars)')
