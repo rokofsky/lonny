@@ -1,0 +1,7 @@
+
+.preview-bar { background: #244D67; color: #fff; display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap; padding: .7rem 1rem; font: 500 .82rem/1.5 Inter, sans-serif; text-align: center; }
+.preview-bar strong { color: #D3E5DA; font-size: .72rem; letter-spacing: .15em; }
+.preview-form-note { color: #285648; border-left: 3px solid #5F9192; background: #EDF4F0; padding: .85rem 1rem; font-size: .88rem; border-radius: .3rem; }
+form[data-preview-only] button[disabled] { opacity: .58; cursor: not-allowed; }
+form[data-preview-only] :is(input, textarea, select)[disabled] { cursor: not-allowed; }
+@media(max-width:600px) { .preview-bar { gap: .25rem .75rem; font-size: .72rem; } }

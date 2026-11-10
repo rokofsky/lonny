@@ -1,5 +1,13 @@
 # Lonny's Learning Playground
 
+## View the V2 design online (static preview)
+
+The static, nonfunctional visual demonstration is exported in `docs/` and can be viewed at **https://rokofsky.github.io/lonny/** after enabling GitHub Pages: **Settings → Pages → Build and deployment → Deploy from a branch → main → /docs → Save**. The preview includes nine navigable pages and a browser-only learning activity. Visitor forms are deliberately disabled; this is **not** the PHP CMS or the live production service.
+
+Regenerate the static preview from the PHP source with `pip install beautifulsoup4` and `python scripts/build_preview.py`, then review the generated changes before publishing. No server data, administrator credentials or private setup files should ever be copied into `docs/`.
+
+
+
 A self-hostable, English-language website for Lonny: teacher training, language experiences, Suggestopedia, real teaching demonstrations, and a *moderated* community. The current v2 design uses restrained editorial typography, cool-white backgrounds, deep blue and dark-green accents, and a light but mature educational atmosphere.
 
 ## What works
