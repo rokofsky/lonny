@@ -1,0 +1,14 @@
+# Secrets and production visitor data. Never commit these.
+/app/private.php
+/SETUP_KEY.txt
+/app/storage/*.json
+/app/storage/*.lock
+/public/media/*
+!/public/media/.htaccess
+!/public/media/.gitkeep
+
+# Temporary / development artifacts
+*.log
+.DS_Store
+.idea/
+.vscode/
